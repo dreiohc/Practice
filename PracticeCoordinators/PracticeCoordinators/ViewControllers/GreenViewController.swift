@@ -15,8 +15,6 @@ class GreenViewController: UIViewController, Storyboarded {
 	weak var coordinator: MainCoordinator?
 	
 	
-	
-	
 	// MARK: - Life Cycle
 	
 	override func viewDidLoad() {
