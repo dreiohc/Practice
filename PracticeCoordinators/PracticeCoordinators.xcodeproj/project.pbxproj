@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		67DD841D8150BB00C693680C /* Pods_PracticeCoordinators.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9588C4573C5E7D38D3F8C0E /* Pods_PracticeCoordinators.framework */; };
+		C4281E702447796100637D6E /* MyCustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4281E6E2447796100637D6E /* MyCustomCell.swift */; };
+		C4281E712447796100637D6E /* MyCustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C4281E6F2447796100637D6E /* MyCustomCell.xib */; };
 		C448DFFF24474C22005C7F8F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C448DFFE24474C22005C7F8F /* AppDelegate.swift */; };
 		C448E00924474C22005C7F8F /* PracticeCoordinators.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C448E00724474C22005C7F8F /* PracticeCoordinators.xcdatamodeld */; };
 		C448E00B24474C24005C7F8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C448E00A24474C24005C7F8F /* Assets.xcassets */; };
@@ -23,13 +25,14 @@
 		C448E02924475066005C7F8F /* YellowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C448E02824475066005C7F8F /* YellowViewController.swift */; };
 		C448E02B244750C8005C7F8F /* Green.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C448E02A244750C8005C7F8F /* Green.storyboard */; };
 		C448E02D24475162005C7F8F /* GreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C448E02C24475162005C7F8F /* GreenViewController.swift */; };
-		C448E036244761D1005C7F8F /* MyCustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C448E035244761D1005C7F8F /* MyCustomCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7A6500EE025543C61481079E /* Pods-PracticeCoordinators.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PracticeCoordinators.release.xcconfig"; path = "Target Support Files/Pods-PracticeCoordinators/Pods-PracticeCoordinators.release.xcconfig"; sourceTree = "<group>"; };
 		B9588C4573C5E7D38D3F8C0E /* Pods_PracticeCoordinators.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PracticeCoordinators.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCE3BC359FE7567129023352 /* Pods-PracticeCoordinators.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PracticeCoordinators.debug.xcconfig"; path = "Target Support Files/Pods-PracticeCoordinators/Pods-PracticeCoordinators.debug.xcconfig"; sourceTree = "<group>"; };
+		C4281E6E2447796100637D6E /* MyCustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCustomCell.swift; sourceTree = "<group>"; };
+		C4281E6F2447796100637D6E /* MyCustomCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyCustomCell.xib; sourceTree = "<group>"; };
 		C448DFFB24474C22005C7F8F /* PracticeCoordinators.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PracticeCoordinators.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C448DFFE24474C22005C7F8F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C448E00824474C22005C7F8F /* PracticeCoordinators.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PracticeCoordinators.xcdatamodel; sourceTree = "<group>"; };
@@ -47,7 +50,6 @@
 		C448E02824475066005C7F8F /* YellowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YellowViewController.swift; sourceTree = "<group>"; };
 		C448E02A244750C8005C7F8F /* Green.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Green.storyboard; sourceTree = "<group>"; };
 		C448E02C24475162005C7F8F /* GreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenViewController.swift; sourceTree = "<group>"; };
-		C448E035244761D1005C7F8F /* MyCustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCustomCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,7 +150,8 @@
 		C448E02E2447555E005C7F8F /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				C448E035244761D1005C7F8F /* MyCustomCell.swift */,
+				C4281E6E2447796100637D6E /* MyCustomCell.swift */,
+				C4281E6F2447796100637D6E /* MyCustomCell.xib */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -216,6 +219,7 @@
 				C448E02B244750C8005C7F8F /* Green.storyboard in Resources */,
 				C448E02324474F23005C7F8F /* Red.storyboard in Resources */,
 				C448E0272447503F005C7F8F /* Yellow.storyboard in Resources */,
+				C4281E712447796100637D6E /* MyCustomCell.xib in Resources */,
 				C448E00E24474C24005C7F8F /* LaunchScreen.storyboard in Resources */,
 				C448E00B24474C24005C7F8F /* Assets.xcassets in Resources */,
 				C448E01624474C57005C7F8F /* Blue.storyboard in Resources */,
@@ -277,7 +281,7 @@
 				C448E01D24474D86005C7F8F /* Coordinator.swift in Sources */,
 				C448E02124474E96005C7F8F /* MainCoordinator.swift in Sources */,
 				C448E00924474C22005C7F8F /* PracticeCoordinators.xcdatamodeld in Sources */,
-				C448E036244761D1005C7F8F /* MyCustomCell.swift in Sources */,
+				C4281E702447796100637D6E /* MyCustomCell.swift in Sources */,
 				C448E01F24474DD8005C7F8F /* Storyboarded.swift in Sources */,
 				C448E01A24474C7E005C7F8F /* BlueViewController.swift in Sources */,
 				C448DFFF24474C22005C7F8F /* AppDelegate.swift in Sources */,

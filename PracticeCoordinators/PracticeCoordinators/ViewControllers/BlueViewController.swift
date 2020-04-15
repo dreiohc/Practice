@@ -35,7 +35,7 @@ class BlueViewController: UIViewController, Storyboarded {
 	private func configureTableView() {
 		tableView.dataSource = self
 		tableView.delegate = self
-		
+		tableView.register(cellType: MyCustomCell.self)
 	}
 	
 	
@@ -51,10 +51,10 @@ extension BlueViewController: UITableViewDelegate, UITableViewDataSource {
 	}
 	
 	func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-		let cell:MyCustomCell = self.tableView.dequeueReusableCell(withIdentifier: "cell") as! MyCustomCell
+		let cell: MyCustomCell = tableView.dequeueReusableCell(for: indexPath)
 
 		cell.colorLabel.text = colors[indexPath.row]
-
+		
 		return cell
 	}
 	
