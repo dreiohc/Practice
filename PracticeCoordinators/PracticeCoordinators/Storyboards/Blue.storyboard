@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="dNJ-fd-LtW">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16086"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Blue View Controller-->
+        <scene sceneID="DCw-2g-x4O">
+            <objects>
+                <viewController storyboardIdentifier="BlueViewController" id="dNJ-fd-LtW" customClass="BlueViewController" customModule="PracticeCoordinators" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="mbB-ii-pKw">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Pwc-40-Zmn">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" id="aTO-C0-v9I" customClass="MyCustomCell" customModule="PracticeCoordinators" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="414" height="43.5"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="aTO-C0-v9I" id="JVQ-f3-JjP">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CYt-FF-dvc">
+                                                    <rect key="frame" x="207" y="22" width="0.0" height="0.0"/>
+                                                    <color key="backgroundColor" systemColor="systemBlueColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <color key="backgroundColor" systemColor="systemBlueColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <constraints>
+                                                <constraint firstItem="CYt-FF-dvc" firstAttribute="centerX" secondItem="JVQ-f3-JjP" secondAttribute="centerX" id="Cl9-aY-vkW"/>
+                                                <constraint firstItem="CYt-FF-dvc" firstAttribute="centerY" secondItem="JVQ-f3-JjP" secondAttribute="centerY" id="E96-KA-6SM"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="colorLabel" destination="CYt-FF-dvc" id="b3W-jV-I8A"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="Pwc-40-Zmn" firstAttribute="leading" secondItem="gIo-Bj-YlT" secondAttribute="leading" id="Uvr-eC-LW8"/>
+                            <constraint firstItem="gIo-Bj-YlT" firstAttribute="bottom" secondItem="Pwc-40-Zmn" secondAttribute="bottom" id="g8d-sf-bWL"/>
+                            <constraint firstItem="Pwc-40-Zmn" firstAttribute="top" secondItem="gIo-Bj-YlT" secondAttribute="top" id="jBV-Kt-oX5"/>
+                            <constraint firstItem="gIo-Bj-YlT" firstAttribute="trailing" secondItem="Pwc-40-Zmn" secondAttribute="trailing" id="wBR-KN-WFZ"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="gIo-Bj-YlT"/>
+                    </view>
+                    <connections>
+                        <outlet property="tableView" destination="Pwc-40-Zmn" id="nfo-wI-OgN"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Yfj-Hs-JQd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="134.78260869565219" y="138.61607142857142"/>
+        </scene>
+    </scenes>
+</document>
