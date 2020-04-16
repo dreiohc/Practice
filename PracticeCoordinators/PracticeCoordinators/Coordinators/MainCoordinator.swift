@@ -41,4 +41,10 @@ class MainCoordinator: Coordinator {
 	}
 	
 	
+	// set signal pattern only
+	// generic as much as possible if same function
+	// coordinator should be the one to handle the views not blueVC
+	// dapat nakikinig lang si coordinator
+	
+	
 }

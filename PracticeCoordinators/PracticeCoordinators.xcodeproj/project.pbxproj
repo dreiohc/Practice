@@ -25,6 +25,13 @@
 		C448E02924475066005C7F8F /* YellowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C448E02824475066005C7F8F /* YellowViewController.swift */; };
 		C448E02B244750C8005C7F8F /* Green.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C448E02A244750C8005C7F8F /* Green.storyboard */; };
 		C448E02D24475162005C7F8F /* GreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C448E02C24475162005C7F8F /* GreenViewController.swift */; };
+		C4C808602448932800DEBE97 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C8085F2448932800DEBE97 /* Constant.swift */; };
+		C4C808622448AF4400DEBE97 /* RedShade.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C808612448AF4400DEBE97 /* RedShade.swift */; };
+		C4C808642448B45E00DEBE97 /* YellowShade.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C808632448B45E00DEBE97 /* YellowShade.swift */; };
+		C4C808662448B4DC00DEBE97 /* YellowViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C808652448B4DC00DEBE97 /* YellowViewModel.swift */; };
+		C4E8B0F024486D2300CEE995 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E8B0EF24486D2300CEE995 /* Colors.swift */; };
+		C4E8B0F5244882E100CEE995 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E8B0F4244882E100CEE995 /* UIColor.swift */; };
+		C4E8B0F72448887200CEE995 /* RedViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E8B0F62448887200CEE995 /* RedViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +57,13 @@
 		C448E02824475066005C7F8F /* YellowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YellowViewController.swift; sourceTree = "<group>"; };
 		C448E02A244750C8005C7F8F /* Green.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Green.storyboard; sourceTree = "<group>"; };
 		C448E02C24475162005C7F8F /* GreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenViewController.swift; sourceTree = "<group>"; };
+		C4C8085F2448932800DEBE97 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		C4C808612448AF4400DEBE97 /* RedShade.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedShade.swift; sourceTree = "<group>"; };
+		C4C808632448B45E00DEBE97 /* YellowShade.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YellowShade.swift; sourceTree = "<group>"; };
+		C4C808652448B4DC00DEBE97 /* YellowViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YellowViewModel.swift; sourceTree = "<group>"; };
+		C4E8B0EF24486D2300CEE995 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		C4E8B0F4244882E100CEE995 /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		C4E8B0F62448887200CEE995 /* RedViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,15 +116,19 @@
 		C448DFFD24474C22005C7F8F /* PracticeCoordinators */ = {
 			isa = PBXGroup;
 			children = (
-				C448E02E2447555E005C7F8F /* Views */,
+				C4E8B0F3244882CD00CEE995 /* Extension */,
+				C4E8B0EE24486CE700CEE995 /* Model */,
+				C448E02E2447555E005C7F8F /* View */,
+				C4E8B0ED24486CD700CEE995 /* ViewModel */,
 				C448E01B24474C93005C7F8F /* Coordinators */,
-				C448E01824474C62005C7F8F /* ViewControllers */,
+				C448E01824474C62005C7F8F /* Controllers */,
 				C448E01724474C5A005C7F8F /* Storyboards */,
 				C448DFFE24474C22005C7F8F /* AppDelegate.swift */,
 				C448E00A24474C24005C7F8F /* Assets.xcassets */,
 				C448E00C24474C24005C7F8F /* LaunchScreen.storyboard */,
 				C448E00F24474C24005C7F8F /* Info.plist */,
 				C448E00724474C22005C7F8F /* PracticeCoordinators.xcdatamodeld */,
+				C4C8085F2448932800DEBE97 /* Constant.swift */,
 			);
 			path = PracticeCoordinators;
 			sourceTree = "<group>";
@@ -126,7 +144,7 @@
 			path = Storyboards;
 			sourceTree = "<group>";
 		};
-		C448E01824474C62005C7F8F /* ViewControllers */ = {
+		C448E01824474C62005C7F8F /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
 				C448E01924474C7E005C7F8F /* BlueViewController.swift */,
@@ -134,7 +152,7 @@
 				C448E02824475066005C7F8F /* YellowViewController.swift */,
 				C448E02C24475162005C7F8F /* GreenViewController.swift */,
 			);
-			path = ViewControllers;
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 		C448E01B24474C93005C7F8F /* Coordinators */ = {
@@ -147,13 +165,40 @@
 			path = Coordinators;
 			sourceTree = "<group>";
 		};
-		C448E02E2447555E005C7F8F /* Views */ = {
+		C448E02E2447555E005C7F8F /* View */ = {
 			isa = PBXGroup;
 			children = (
 				C4281E6E2447796100637D6E /* MyCustomCell.swift */,
 				C4281E6F2447796100637D6E /* MyCustomCell.xib */,
 			);
-			path = Views;
+			path = View;
+			sourceTree = "<group>";
+		};
+		C4E8B0ED24486CD700CEE995 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				C4E8B0F62448887200CEE995 /* RedViewModel.swift */,
+				C4C808652448B4DC00DEBE97 /* YellowViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		C4E8B0EE24486CE700CEE995 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C4E8B0EF24486D2300CEE995 /* Colors.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C4E8B0F3244882CD00CEE995 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				C4E8B0F4244882E100CEE995 /* UIColor.swift */,
+				C4C808612448AF4400DEBE97 /* RedShade.swift */,
+				C4C808632448B45E00DEBE97 /* YellowShade.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -276,13 +321,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				C448E02D24475162005C7F8F /* GreenViewController.swift in Sources */,
+				C4E8B0F024486D2300CEE995 /* Colors.swift in Sources */,
+				C4C808662448B4DC00DEBE97 /* YellowViewModel.swift in Sources */,
 				C448E02924475066005C7F8F /* YellowViewController.swift in Sources */,
 				C448E02524474FC7005C7F8F /* RedViewController.swift in Sources */,
 				C448E01D24474D86005C7F8F /* Coordinator.swift in Sources */,
+				C4E8B0F72448887200CEE995 /* RedViewModel.swift in Sources */,
 				C448E02124474E96005C7F8F /* MainCoordinator.swift in Sources */,
+				C4C808622448AF4400DEBE97 /* RedShade.swift in Sources */,
+				C4C808602448932800DEBE97 /* Constant.swift in Sources */,
 				C448E00924474C22005C7F8F /* PracticeCoordinators.xcdatamodeld in Sources */,
 				C4281E702447796100637D6E /* MyCustomCell.swift in Sources */,
+				C4E8B0F5244882E100CEE995 /* UIColor.swift in Sources */,
 				C448E01F24474DD8005C7F8F /* Storyboarded.swift in Sources */,
+				C4C808642448B45E00DEBE97 /* YellowShade.swift in Sources */,
 				C448E01A24474C7E005C7F8F /* BlueViewController.swift in Sources */,
 				C448DFFF24474C22005C7F8F /* AppDelegate.swift in Sources */,
 			);

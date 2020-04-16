@@ -2,7 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16086"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -16,10 +16,10 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AkZ-XI-t5S">
-                                <rect key="frame" x="132" y="431" width="150" height="34"/>
+                                <rect key="frame" x="264" y="748" width="150" height="34"/>
                                 <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="150" id="M4T-Dt-2P3"/>
+                                    <constraint firstAttribute="width" constant="150" id="0fQ-ov-oNx"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
                                 <state key="normal" title="Go To Green">
@@ -29,18 +29,77 @@
                                     <action selector="didTapGreenButton:" destination="goK-1z-DsQ" eventType="touchUpInside" id="dUM-wS-nHq"/>
                                 </connections>
                             </button>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="5FB-Iv-013">
+                                <rect key="frame" x="10" y="343" width="394" height="210"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bWU-Ri-72y">
+                                        <rect key="frame" x="161.5" y="0.0" width="71" height="30"/>
+                                        <state key="normal" title="Blood Red">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="didTapBloodRed:" destination="goK-1z-DsQ" eventType="touchUpInside" id="VbN-JC-dyx"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hrk-a3-Udv">
+                                        <rect key="frame" x="153" y="60" width="88" height="30"/>
+                                        <state key="normal" title="Cardinal Red">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="didTapCardinalRed:" destination="goK-1z-DsQ" eventType="touchUpInside" id="gg5-eo-IZh"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FLr-YS-fQs">
+                                        <rect key="frame" x="168" y="120" width="58" height="30"/>
+                                        <state key="normal" title="Carmine">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="didTapCarmine:" destination="goK-1z-DsQ" eventType="touchUpInside" id="fH5-hw-gO6"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lbK-nw-Spu">
+                                        <rect key="frame" x="166.5" y="180" width="61" height="30"/>
+                                        <state key="normal" title="Chili Red">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="didTapChiliRed:" destination="goK-1z-DsQ" eventType="touchUpInside" id="3ch-T9-WRA"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Red" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fuR-v1-dKk">
+                                <rect key="frame" x="82" y="144" width="250" height="36"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="250" id="rLg-HW-Gla"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="30"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="AkZ-XI-t5S" firstAttribute="centerX" secondItem="zd7-Om-gEo" secondAttribute="centerX" id="227-Q8-hEK"/>
-                            <constraint firstItem="AkZ-XI-t5S" firstAttribute="centerY" secondItem="zd7-Om-gEo" secondAttribute="centerY" id="PuI-U2-n9U"/>
+                            <constraint firstAttribute="trailing" secondItem="5FB-Iv-013" secondAttribute="trailing" constant="10" id="32I-8P-oh8"/>
+                            <constraint firstItem="5FB-Iv-013" firstAttribute="centerY" secondItem="zd7-Om-gEo" secondAttribute="centerY" id="M1P-Bg-gtj"/>
+                            <constraint firstItem="fuR-v1-dKk" firstAttribute="top" secondItem="XZR-FR-lPc" secondAttribute="top" constant="100" id="Z2k-Rn-JXh"/>
+                            <constraint firstItem="fuR-v1-dKk" firstAttribute="centerX" secondItem="zd7-Om-gEo" secondAttribute="centerX" id="dzY-0p-UEV"/>
+                            <constraint firstItem="XZR-FR-lPc" firstAttribute="bottom" secondItem="AkZ-XI-t5S" secondAttribute="bottom" constant="80" id="g7j-y9-wJv"/>
+                            <constraint firstItem="5FB-Iv-013" firstAttribute="leading" secondItem="zd7-Om-gEo" secondAttribute="leading" constant="10" id="gUL-VW-cw3"/>
+                            <constraint firstItem="AkZ-XI-t5S" firstAttribute="trailing" secondItem="XZR-FR-lPc" secondAttribute="trailing" id="h54-45-eCp"/>
+                            <constraint firstItem="5FB-Iv-013" firstAttribute="centerX" secondItem="zd7-Om-gEo" secondAttribute="centerX" id="z6g-mP-EOt"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="XZR-FR-lPc"/>
                     </view>
+                    <connections>
+                        <outlet property="colorNameLabel" destination="fuR-v1-dKk" id="e5T-w8-dx8"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gLA-V1-KWg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="113" y="123"/>
+            <point key="canvasLocation" x="111.59420289855073" y="122.54464285714285"/>
         </scene>
     </scenes>
 </document>

@@ -2,7 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16086"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -16,10 +16,10 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xRx-Kv-KnK">
-                                <rect key="frame" x="132" y="431" width="150" height="34"/>
+                                <rect key="frame" x="264" y="748" width="150" height="34"/>
                                 <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="150" id="NKw-eV-Vse"/>
+                                    <constraint firstAttribute="width" constant="150" id="wLF-0V-z1G"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
                                 <state key="normal" title="Go To Green">
@@ -29,14 +29,72 @@
                                     <action selector="didTapGreenButton:" destination="S6j-72-Rm8" eventType="touchUpInside" id="lsx-wu-QsC"/>
                                 </connections>
                             </button>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="dbz-Zo-vCq">
+                                <rect key="frame" x="183.5" y="343" width="47" height="210"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q2E-UO-AXL">
+                                        <rect key="frame" x="1" y="0.0" width="45" height="30"/>
+                                        <state key="normal" title="Cream">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="didTapCreamButton:" destination="S6j-72-Rm8" eventType="touchUpInside" id="vB4-Ol-g5k"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hpZ-RD-esy">
+                                        <rect key="frame" x="0.0" y="60" width="47" height="30"/>
+                                        <state key="normal" title="Lemon">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="didTapLemonButton:" destination="S6j-72-Rm8" eventType="touchUpInside" id="RJF-kk-gDA"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HyR-go-kdu">
+                                        <rect key="frame" x="7" y="120" width="33" height="30"/>
+                                        <state key="normal" title="Gold">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="didTapGoldButton:" destination="S6j-72-Rm8" eventType="touchUpInside" id="i4R-t2-pfo"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l7I-JD-aL6">
+                                        <rect key="frame" x="4.5" y="180" width="38" height="30"/>
+                                        <state key="normal" title="Khaki">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="didTapKhakiButton:" destination="S6j-72-Rm8" eventType="touchUpInside" id="Fyc-qm-5Vf"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Yellow" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MAN-hS-J6D">
+                                <rect key="frame" x="82" y="144" width="250" height="36"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="250" id="Pk0-nu-k6j"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="250" id="XvV-dh-Its"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="30"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="xRx-Kv-KnK" firstAttribute="centerY" secondItem="Cvt-Ry-Mjo" secondAttribute="centerY" id="P9z-iX-2bo"/>
-                            <constraint firstItem="xRx-Kv-KnK" firstAttribute="centerX" secondItem="Cvt-Ry-Mjo" secondAttribute="centerX" id="Xdw-Ks-4yT"/>
+                            <constraint firstItem="YOq-Ie-gdJ" firstAttribute="bottom" secondItem="xRx-Kv-KnK" secondAttribute="bottom" constant="80" id="H9L-kB-D6R"/>
+                            <constraint firstItem="dbz-Zo-vCq" firstAttribute="centerX" secondItem="Cvt-Ry-Mjo" secondAttribute="centerX" id="LeX-0B-qkm"/>
+                            <constraint firstItem="MAN-hS-J6D" firstAttribute="centerX" secondItem="Cvt-Ry-Mjo" secondAttribute="centerX" id="Vmh-Ba-LQ3"/>
+                            <constraint firstItem="dbz-Zo-vCq" firstAttribute="centerY" secondItem="Cvt-Ry-Mjo" secondAttribute="centerY" id="aJr-s1-0uZ"/>
+                            <constraint firstItem="MAN-hS-J6D" firstAttribute="top" secondItem="YOq-Ie-gdJ" secondAttribute="top" constant="100" id="c18-r4-Z9x"/>
+                            <constraint firstItem="xRx-Kv-KnK" firstAttribute="trailing" secondItem="YOq-Ie-gdJ" secondAttribute="trailing" id="zJE-dx-HgK"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="YOq-Ie-gdJ"/>
                     </view>
+                    <connections>
+                        <outlet property="colorNameLabel" destination="MAN-hS-J6D" id="J1Q-OI-xfp"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PTS-aH-dYA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
