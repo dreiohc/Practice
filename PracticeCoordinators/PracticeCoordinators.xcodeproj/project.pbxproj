@@ -14,16 +14,16 @@
 		C448E00924474C22005C7F8F /* PracticeCoordinators.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C448E00724474C22005C7F8F /* PracticeCoordinators.xcdatamodeld */; };
 		C448E00B24474C24005C7F8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C448E00A24474C24005C7F8F /* Assets.xcassets */; };
 		C448E00E24474C24005C7F8F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C448E00C24474C24005C7F8F /* LaunchScreen.storyboard */; };
-		C448E01624474C57005C7F8F /* Blue.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C448E01524474C57005C7F8F /* Blue.storyboard */; };
+		C448E01624474C57005C7F8F /* BlueViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C448E01524474C57005C7F8F /* BlueViewController.storyboard */; };
 		C448E01A24474C7E005C7F8F /* BlueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C448E01924474C7E005C7F8F /* BlueViewController.swift */; };
 		C448E01D24474D86005C7F8F /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C448E01C24474D86005C7F8F /* Coordinator.swift */; };
 		C448E01F24474DD8005C7F8F /* Storyboarded.swift in Sources */ = {isa = PBXBuildFile; fileRef = C448E01E24474DD8005C7F8F /* Storyboarded.swift */; };
 		C448E02124474E96005C7F8F /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C448E02024474E96005C7F8F /* MainCoordinator.swift */; };
-		C448E02324474F23005C7F8F /* Red.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C448E02224474F23005C7F8F /* Red.storyboard */; };
+		C448E02324474F23005C7F8F /* RedViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C448E02224474F23005C7F8F /* RedViewController.storyboard */; };
 		C448E02524474FC7005C7F8F /* RedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C448E02424474FC7005C7F8F /* RedViewController.swift */; };
-		C448E0272447503F005C7F8F /* Yellow.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C448E0262447503F005C7F8F /* Yellow.storyboard */; };
+		C448E0272447503F005C7F8F /* YellowViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C448E0262447503F005C7F8F /* YellowViewController.storyboard */; };
 		C448E02924475066005C7F8F /* YellowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C448E02824475066005C7F8F /* YellowViewController.swift */; };
-		C448E02B244750C8005C7F8F /* Green.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C448E02A244750C8005C7F8F /* Green.storyboard */; };
+		C448E02B244750C8005C7F8F /* GreenViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C448E02A244750C8005C7F8F /* GreenViewController.storyboard */; };
 		C448E02D24475162005C7F8F /* GreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C448E02C24475162005C7F8F /* GreenViewController.swift */; };
 		C4C808602448932800DEBE97 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C8085F2448932800DEBE97 /* Constant.swift */; };
 		C4C808622448AF4400DEBE97 /* RedShade.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C808612448AF4400DEBE97 /* RedShade.swift */; };
@@ -46,16 +46,16 @@
 		C448E00A24474C24005C7F8F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C448E00D24474C24005C7F8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C448E00F24474C24005C7F8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C448E01524474C57005C7F8F /* Blue.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Blue.storyboard; sourceTree = "<group>"; };
+		C448E01524474C57005C7F8F /* BlueViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = BlueViewController.storyboard; sourceTree = "<group>"; };
 		C448E01924474C7E005C7F8F /* BlueViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueViewController.swift; sourceTree = "<group>"; };
 		C448E01C24474D86005C7F8F /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 		C448E01E24474DD8005C7F8F /* Storyboarded.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storyboarded.swift; sourceTree = "<group>"; };
 		C448E02024474E96005C7F8F /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
-		C448E02224474F23005C7F8F /* Red.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Red.storyboard; sourceTree = "<group>"; };
+		C448E02224474F23005C7F8F /* RedViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = RedViewController.storyboard; sourceTree = "<group>"; };
 		C448E02424474FC7005C7F8F /* RedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedViewController.swift; sourceTree = "<group>"; };
-		C448E0262447503F005C7F8F /* Yellow.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Yellow.storyboard; sourceTree = "<group>"; };
+		C448E0262447503F005C7F8F /* YellowViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = YellowViewController.storyboard; sourceTree = "<group>"; };
 		C448E02824475066005C7F8F /* YellowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YellowViewController.swift; sourceTree = "<group>"; };
-		C448E02A244750C8005C7F8F /* Green.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Green.storyboard; sourceTree = "<group>"; };
+		C448E02A244750C8005C7F8F /* GreenViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = GreenViewController.storyboard; sourceTree = "<group>"; };
 		C448E02C24475162005C7F8F /* GreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenViewController.swift; sourceTree = "<group>"; };
 		C4C8085F2448932800DEBE97 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 		C4C808612448AF4400DEBE97 /* RedShade.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedShade.swift; sourceTree = "<group>"; };
@@ -136,10 +136,10 @@
 		C448E01724474C5A005C7F8F /* Storyboards */ = {
 			isa = PBXGroup;
 			children = (
-				C448E01524474C57005C7F8F /* Blue.storyboard */,
-				C448E02224474F23005C7F8F /* Red.storyboard */,
-				C448E0262447503F005C7F8F /* Yellow.storyboard */,
-				C448E02A244750C8005C7F8F /* Green.storyboard */,
+				C448E01524474C57005C7F8F /* BlueViewController.storyboard */,
+				C448E02224474F23005C7F8F /* RedViewController.storyboard */,
+				C448E0262447503F005C7F8F /* YellowViewController.storyboard */,
+				C448E02A244750C8005C7F8F /* GreenViewController.storyboard */,
 			);
 			path = Storyboards;
 			sourceTree = "<group>";
@@ -261,13 +261,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C448E02B244750C8005C7F8F /* Green.storyboard in Resources */,
-				C448E02324474F23005C7F8F /* Red.storyboard in Resources */,
-				C448E0272447503F005C7F8F /* Yellow.storyboard in Resources */,
+				C448E02B244750C8005C7F8F /* GreenViewController.storyboard in Resources */,
+				C448E02324474F23005C7F8F /* RedViewController.storyboard in Resources */,
+				C448E0272447503F005C7F8F /* YellowViewController.storyboard in Resources */,
 				C4281E712447796100637D6E /* MyCustomCell.xib in Resources */,
 				C448E00E24474C24005C7F8F /* LaunchScreen.storyboard in Resources */,
 				C448E00B24474C24005C7F8F /* Assets.xcassets in Resources */,
-				C448E01624474C57005C7F8F /* Blue.storyboard in Resources */,
+				C448E01624474C57005C7F8F /* BlueViewController.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -10,7 +10,7 @@
         <!--Red View Controller-->
         <scene sceneID="Hw3-ll-d7w">
             <objects>
-                <viewController storyboardIdentifier="RedViewController" id="goK-1z-DsQ" customClass="RedViewController" customModule="PracticeCoordinators" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="RedViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="goK-1z-DsQ" customClass="RedViewController" customModule="PracticeCoordinators" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="zd7-Om-gEo">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

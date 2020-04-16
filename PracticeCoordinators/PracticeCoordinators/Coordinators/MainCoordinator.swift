@@ -17,25 +17,25 @@ class MainCoordinator: Coordinator {
 	}
 	
 	func start() {
-		let vc = BlueViewController.instantiate(color: "Blue")
+		let vc = BlueViewController.instantiate()
 		vc.coordinator = self
 		navigationController.pushViewController(vc, animated: false)
 	}
 	
 	func goToRed() {
-		let vc = RedViewController.instantiate(color: "Red")
+		let vc = RedViewController.instantiate()
 		vc.coordinator = self
 		navigationController.pushViewController(vc, animated: false)
 	}
 	
 	func goToYellow() {
-		let vc = YellowViewController.instantiate(color: "Yellow")
+		let vc = YellowViewController.instantiate()
 		vc.coordinator = self
 		navigationController.pushViewController(vc, animated: false)
 	}
 	
 	func goToGreen() {
-		let vc = GreenViewController.instantiate(color: "Green")
+		let vc = GreenViewController.instantiate()
 		vc.coordinator = self
 		navigationController.pushViewController(vc, animated: false)
 	}
