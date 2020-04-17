@@ -9,8 +9,8 @@ import UIKit
 
 class Color {
 	
-	var colorName: String
-	var shade: Shade
+	let colorName: String
+	let shade: Shade
 	
 	init(colorName: String, shade: Shade) {
 		self.colorName = colorName
